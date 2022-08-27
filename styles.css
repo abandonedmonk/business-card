@@ -1,0 +1,51 @@
+body {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.avatar {
+    width: 150px;
+}
+
+.content{
+    padding: 18px;
+    text-shadow: 1px 1px 1px #457B9D; 
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: #1D3557;
+}
+
+.border-blue {
+    border: 5px solid #457B9D;
+    border-radius: 10px;
+}
+
+.border-image{
+    border: 5px solid #457B9D;
+    border-radius: 100%;
+}
+
+h3:hover, p:hover, h4:hover{
+    color: #E63946;
+}
+
+
+
+
